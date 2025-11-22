@@ -6,16 +6,17 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
 import Login from "./Pages/Login";
+import Undermaintenance from "./Pages/Undermaintenance";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Login" element={<Login/>}/>
+        <Route path="/Home" element={<Undermaintenance />} />
+        <Route path="/About" element={<Undermaintenance />} />
+        <Route path="/Contact" element={<Undermaintenance />} />
+        <Route path="/" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
   );
