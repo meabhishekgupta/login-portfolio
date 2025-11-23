@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS for Contact Page */
+#textBox{
+    width: 50%;
+    float: inline-end;
+  }
+  #messageBox{
+    width: 50%;
+    float: inline-start;
+  }
+  #contactIcons img{
+    width: 40px;
+  }
+@media (max-width: 987px) {
+  #textBox{
+    width: 90vw;
+    order: -1;
+  }
+  #messageBox{
+    width: 90vw;
+  }
+}
