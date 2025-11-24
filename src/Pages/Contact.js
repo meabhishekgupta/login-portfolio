@@ -25,8 +25,10 @@ export default function Contact() {
             conversations.
           </p>
           <div id="contactIcons" className="d-flex">
-            <img src={gmailIcon} className="m-3" alt="gmailIcon" onClick={()=>{window.open("mailto:abhi5048462@gmail.com")}}/>
-            <img src={linkednIcon} className="m-3" alt="linkedInicon" onClick={()=>{window.open("www.linkedin.com/in/guptaabhi1999","_blank")}}/>
+            <img src={gmailIcon} className="m-3" alt="gmailIcon" onClick={()=>{window.open("https://mail.google.com/mail/?view=cm&fs=1&to=abhi5048462@gmail.com")}}/>
+            <a href="https://www.linkedin.com/in/guptaabhi1999" target="_blank" rel="noopener noreferrer">
+            <img src={linkednIcon} className="m-3" alt="linkedInicon"/>
+            </a>
           </div>
           </div>
           
