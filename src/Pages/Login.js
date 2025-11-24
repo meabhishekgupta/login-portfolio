@@ -6,7 +6,7 @@ export default function () {
   return (
     <div className="container">
       <div className="row align-items-center">
-        <div className="col d-flex justify-content-center">
+        <div className="col d-flex justify-content-center mb-3">
           <img className="border border-secondary shadow" src={loginPageImg} alt="loginPageImage" />
         </div>
         <div className="col px-5">
